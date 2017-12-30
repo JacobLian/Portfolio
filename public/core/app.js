@@ -4,7 +4,7 @@ angular.module('portfolio', ['ui.router'])
     $urlRouterProvider.when('','/')
 
     $stateProvider
-    .state('projects', {
+    .state('home', {
         url:'/',
         templateUrl: './views/home.html'
     })
