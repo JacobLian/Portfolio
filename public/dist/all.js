@@ -5,11 +5,11 @@ angular.module('portfolio', ['ui.router']).config(function ($stateProvider, $url
 
     $stateProvider.state('home', {
         url: '/',
-        templateUrl: './views/home.html'
+        templateUrl: '../core/views/home.html'
     });
     $stateProvider.state('projects', {
-        url: '/',
-        templateUrl: './views/projects.html'
+        url: '/projects',
+        templateUrl: '../core/views/projects.html'
     });
 });
 'use strict';
